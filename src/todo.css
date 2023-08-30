@@ -1,0 +1,154 @@
+.totalbox{
+   display: flex;
+   padding: 16px;
+   flex-direction: column;
+   margin-top: 6%;
+}
+.txt {
+    display: flex;
+    flex: 1;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+    gap :24px;
+    padding-left: 8px;
+}
+.box{
+    border-radius: 8px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-size: large;
+    display: flex;
+    font-family: 'Times New Roman';
+    flex: 5;
+    background-color: cornsilk;
+}
+.button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  outline: 0;
+  font-size: 20px;
+  padding: 5px 6px;
+  pointer-events: auto;
+  text-align: center;
+  vertical-align: top;
+  border: 0;
+  transition: box-shadow .2s;
+  flex: 1;;
+}
+
+.button:hover {
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+.newline{
+    display: flex;
+    flex: 1;
+    gap: 16px;
+}
+
+.listbox{
+  display: flex;
+  flex: 1;
+  flex-direction: column;    
+}
+.list {
+      align-items: center;
+      background-image: linear-gradient(144deg,#E95420 50%, #E95420 );
+      border: 0;
+      border-radius:8px;
+      box-shadow: rgba(255, 96, 28, 0.2) 0 15px 30px -5px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      justify-content: center;
+      padding: 5px 15px;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      cursor: pointer;
+      display: flex;
+      flex: 1;
+      flex-wrap: wrap;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    
+    .list:active,
+    .list:hover {
+      outline: 0;
+    }
+
+
+.todo{
+    border: 1px solid #000;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 8px;
+    font-size: x-large;
+    font-family: 'Times New Roman';
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    padding: 16px;
+    background-color: cornsilk;
+}
+
+.check{
+  width: 18px;
+  height: 18px;
+  margin: 0px;
+}
+
+.boxbtn{
+   display: flex;
+   gap : 12px;
+   align-items: center
+}
+.editbtn {
+  background-color: initial;
+  background: linear-gradient(-180deg, #070093, #3939eb);
+    border-radius: 8px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 1;
+    outline: 0 solid transparent;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    word-break: break-word;
+    border: 0;
+    width: 72px;
+  }
+
+.deletebtn {
+    background-color: initial;
+    background: linear-gradient(-180deg, #880000, #ff0000);
+    border-radius: 8px;
+    box-shadow: #f05d5d 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 1;
+    outline: 0 solid transparent;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    word-break: break-word;
+    border: 0;
+    width: 72px;
+}
